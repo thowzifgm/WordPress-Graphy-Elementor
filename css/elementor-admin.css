@@ -1,0 +1,95 @@
+/**
+ * Graphy for Elementor
+ * Creates modern and stylish Elementor widgets to display awesome charts and graphs.
+ *
+ * @encoding        UTF-8
+ * @version         1.2.6
+ * @contributors    Abdullah Thowzif Hameed (thowzif@live.com)
+ **/
+.elementor-navigator__element__element-type .mdp-line-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-pie-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-donut-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-gauge-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-dots-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-bipolar-line-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-bipolar-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-multiline-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-stacked-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-area-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-holes-elementor-widget-icon {
+  width: 12px;
+  height: 12px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon .mdp-line-elementor-widget-icon,
+.icon .mdp-bar-elementor-widget-icon,
+.icon .mdp-pie-elementor-widget-icon,
+.icon .mdp-donut-elementor-widget-icon,
+.icon .mdp-gauge-elementor-widget-icon,
+.icon .mdp-dots-elementor-widget-icon,
+.icon .mdp-bipolar-line-elementor-widget-icon,
+.icon .mdp-bipolar-bar-elementor-widget-icon,
+.icon .mdp-multiline-bar-elementor-widget-icon,
+.icon .mdp-stacked-bar-elementor-widget-icon,
+.icon .mdp-area-elementor-widget-icon,
+.icon .mdp-holes-elementor-widget-icon {
+  width: 100%;
+  height: 29px;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon .mdp-line-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-line-elementor-widget-icon {
+  background-image: url("../images/line-chart.svg");
+}
+.icon .mdp-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-bar-elementor-widget-icon {
+  background-image: url("../images/bar-chart.svg");
+}
+.icon .mdp-pie-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-pie-elementor-widget-icon {
+  background-image: url("../images/pie-chart.svg");
+}
+.icon .mdp-donut-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-donut-elementor-widget-icon {
+  background-image: url("../images/donut-chart.svg");
+}
+.icon .mdp-gauge-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-gauge-elementor-widget-icon {
+  background-image: url("../images/gauge-chart.svg");
+}
+.icon .mdp-dots-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-dots-elementor-widget-icon {
+  background-image: url("../images/dots-chart.svg");
+}
+.icon .mdp-bipolar-line-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-bipolar-line-elementor-widget-icon {
+  background-image: url("../images/bipolar-line.svg");
+}
+.icon .mdp-bipolar-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-bipolar-bar-elementor-widget-icon {
+  background-image: url("../images/bipolar-bar.svg");
+}
+.icon .mdp-multiline-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-multiline-bar-elementor-widget-icon {
+  background-image: url("../images/multiline-bar.svg");
+}
+.icon .mdp-stacked-bar-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-stacked-bar-elementor-widget-icon {
+  background-image: url("../images/stacked-bar.svg");
+}
+.icon .mdp-area-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-area-elementor-widget-icon {
+  background-image: url("../images/area-chart.svg");
+}
+.icon .mdp-holes-elementor-widget-icon,
+.elementor-navigator__element__element-type .mdp-holes-elementor-widget-icon {
+  background-image: url("../images/holes-chart.svg");
+}

@@ -1,0 +1,1 @@
+"use strict";var ready=e=>{"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)};
