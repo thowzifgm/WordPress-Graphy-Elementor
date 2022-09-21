@@ -1,0 +1,137 @@
+/**
+ * Graphy for Elementor
+ * Creates modern and stylish Elementor widgets to display awesome charts and graphs.
+ *
+ * @encoding        UTF-8
+ * @version         1.2.6
+ * @contributors    Abdullah Thowzif Hameed (thowzif@live.com)
+ **/
+
+.mdp-graph-conventions ul
+  list-style-position: inside
+  -moz-column-count: 2
+  -webkit-column-count: 2
+  column-count: 2
+  list-style-type: decimal
+  list-style: none
+  margin: 0
+  padding: 0
+
+.mdp-graph-conventions ul li
+  margin: 0
+
+.mdp-item-color
+  border-radius: 50%
+  display: inline-block
+  width: 10px
+  height: 10px
+  margin-bottom: 2px
+  margin-right: 5px
+
+.ct-label.ct-vertical.ct-start
+  justify-content: inherit
+
+  &.ct-chart-pie,
+  &.ct-chart-donut
+    overflow: visible
+
+svg
+
+  &.ct-chart-line,
+  &.ct-chart-pie,
+  &.ct-chart-donut,
+  &.ct-chart-bar
+    overflow: visible
+
+.ct-chart-line
+  .ct-area
+    fill-opacity: 1
+
+.mdp-hide-points
+
+  .ct-point
+    display: none
+
+// Labels
+
+.ct-label
+  font-size: .615rem
+  line-height: 1rem
+
+.ct-golden-section
+  z-index: 0
+
+// Header
+.mdp-graphy-elementor-header,
+.mdp-graphy-elementor-footer
+  overflow: hidden
+  display: flex
+
+  &.mdp-top-left
+    align-items: flex-start
+    justify-content: flex-start
+    text-align: left
+
+  &.mdp-top-center
+    align-items: flex-start
+    justify-content: center
+    text-align: center
+
+  &.mdp-top-right
+    align-items: flex-start
+    justify-content: flex-end
+    text-align: right
+
+  &.mdp-center-left
+    align-items: center
+    justify-content: flex-start
+    text-align: left
+
+  &.mdp-center-center
+    align-items: center
+    justify-content: center
+    text-align: center
+
+  &.mdp-center-right
+    align-items: center
+    justify-content: flex-end
+    text-align: right
+
+  &.mdp-bottom-left
+    align-items: flex-end
+    justify-content: flex-start
+    text-align: left
+
+  &.mdp-bottom-center
+    align-items: flex-end
+    justify-content: center
+    text-align: center
+
+  &.mdp-bottom-right
+    align-items: flex-end
+    justify-content: flex-end
+    text-align: right
+
+  .mdp-graphy-elementor-image
+    display: flex
+
+  span,
+  p
+
+    &[data-size="large"]
+      font-size: larger
+
+    &[data-size="small"]
+      font-size: smaller
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6
+    margin: 0
+
+.mdp-graphy-elementor-row
+  display: flex
+  justify-content: space-between

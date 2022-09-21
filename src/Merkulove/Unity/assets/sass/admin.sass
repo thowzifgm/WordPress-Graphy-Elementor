@@ -1,0 +1,43 @@
+/**
+ * Graphy for Elementor
+ * Creates modern and stylish Elementor widgets to display awesome charts and graphs.
+ *
+ * @encoding        UTF-8
+ * @version         1.2.6
+ * @contributors    Abdullah Thowzif Hameed (thowzif@live.com)
+ **/
+
+@import "includes/tab-activation"
+@import "includes/tab-assignments"
+@import "includes/tab-uninstall"
+
+.mdc-drawer__content > .mdc-list
+  margin-bottom: 40px
+
+.mdc-filed-divider
+  margin-left: -210px
+  margin-top: 0
+  margin-bottom: 0
+
+.mdc-social
+  display: flex
+  align-items: baseline
+  position: absolute
+  bottom: 16px
+  min-width: 240px
+  justify-content: space-between
+
+  .mdc-list-item
+    width: fit-content
+
+    svg
+      max-width: 16px
+      margin: 0 3px
+
+      path
+        fill: rgba(10,33,56,.6)
+
+@media screen and (max-width: 620px)
+
+  .mdc-social
+    display: none
